@@ -1,0 +1,238 @@
+:root {
+  --background-color: #F2E4E4;
+  --text-color: #333;
+  --color-white: #fff;
+  --color-darkpink: #8C3041;
+  --color-black: #000;
+  --color-lightpink: #c9a9a9;
+  --color-header: #9c5f64;
+
+
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+    justify-content: flex-start;
+    font-size: 20px;
+    color: var(--text-color)
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-header);
+  }
+  
+  li a {
+    display: block;
+    color: var(--color-white);
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: var(--color-lightpink);
+  }
+
+.laatste-aflevering h5 {
+  color: var(--color-black);
+  margin-left: 40px;
+}
+
+.laatste-aflevering .button-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 40px;
+  background-color: var(--color-lightpink);
+  margin-right: 800px;
+}
+
+ .afbeelding-laatste-aflevering img {
+    display: block;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    left: 60%;
+    top: 20%;
+    margin-left: 40;
+ } 
+
+.laatste-aflevering {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--color-header);
+  padding-top: 40px;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-bottom: 150px;
+  
+}
+
+.laatste-aflevering h2 {
+  font-size: 36px;
+  color: var(--color-white);
+  display: flex;
+  margin-left: 40px;
+  
+}
+
+.laatste-aflevering p {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 800px;
+  margin-left: 40px;
+  font-size: 25px;
+  border-radius: 10px;
+  border-width: 100px;  
+  padding: 50px;
+  color: white;
+  background-color: var(--color-darkpink);
+}
+
+.button-logo img {
+  width: 75px;
+  height: auto;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+
+
+.seizoen-1 h2 {
+  font-size: 30px;
+  color: #8C2E36;
+  text-align: center;
+}
+
+.seizoen-1 p {
+  font-size: 20px;
+  text-align: center;
+  color: var(--text-color)
+}
+
+.afleveringen h3 {
+  font-size: 30px;
+  color: var(--color-darkpink)
+}
+
+.afleveringen p {
+  font-size: 25px;
+  text-align: left;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.afleveringenborder {
+  background-color: --color-white;
+  width: 1200px;  
+  height: auto;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.afleveringenborder:hover {
+  background-color: var(--color-lightpink);
+}
+
+.afleveringen {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  margin: 10px auto;
+  gap: 40px;
+}
+
+.trein {
+  width: 500px;
+  height: auto;
+}
+
+
+.hoelang {
+  width: 600px;
+  height: auto;
+  margin-left: 40px;
+}
+
+.overonspagina h3 {
+  font-size: 50px;
+  color: var(--color-darkpink);
+  display: flex;
+  justify-content: center;
+}
+
+.overonspagina p {
+  font-size: 20px;
+  text-align: center;
+  color: var(--text-color);
+  padding-bottom: 40px;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+.overonspagina  h4 {
+  font-size: 25px;
+  color: var(--color-darkpink);
+  display: flex;
+  justify-content: flex-start  ;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+.overonspagina img {
+  width: 300px;
+  height: auto;
+}
+
+.chiara {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color-lightpink);
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 20px;
+}
+
+.chiara h4 {
+  display: flex;
+  justify-content: flex-start  ;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+.chiara p {
+display: flex;
+justify-content: flex-start  ;
+margin-top: 150px;
+margin-left: 70px;
+margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
